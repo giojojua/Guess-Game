@@ -1,0 +1,26 @@
+{
+  "name": "guess",
+  "version": "1.0.0",
+  "description": "Guess Game",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "deploy": "surge --project ./public --token 0882c8aff0699e84d693bd77d2e5c464 --domain guess.surge.sh",
+    "dev": "mix",
+    "watch": "mix watch"
+  },
+  "author": "th3g3ntl3man",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "cross-env": "^7.0.3",
+    "git-scripts": "^0.4.3",
+    "laravel-mix": "^6.0.34",
+    "node-sass": "^6.0.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "surge": "^0.23.0",
+    "autoprefixer": "^10.3.7"
+  }
+}

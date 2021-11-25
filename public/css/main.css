@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+.centered {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess {
+  max-height: 600px;
+  height: 100%;
+  max-width: 600px;
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guess .brand img {
+  max-height: 200px;
+  width: 100%;
+}
+.guess .input-group {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.guess .input-group span {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: auto auto 15px auto;
+}
+.guess .input-group input {
+  max-width: 200px;
+  display: block;
+  padding: 8px 10px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.guess button {
+  display: block;
+  margin: auto;
+  padding: 12px 25px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
