@@ -22,7 +22,7 @@
   height: 100%;
   max-width: 600px;
   width: 100%;
-  border: 2px solid #000;
+  border: 2px solid #141414;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -50,8 +50,8 @@
   max-width: 200px;
   display: block;
   padding: 8px 10px;
-  color: #000;
-  border: 1px solid #000;
+  color: #141414;
+  border: 1px solid #141414;
   border-radius: 5px;
   font-size: 16px;
   outline: none;
@@ -61,7 +61,7 @@
   margin: auto;
   padding: 12px 25px;
   color: #fff;
-  background-color: #000;
+  background-color: #141414;
   border: none;
   border-radius: 5px;
   font-size: 16px;
